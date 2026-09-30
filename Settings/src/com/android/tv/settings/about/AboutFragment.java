@@ -67,6 +67,9 @@ import com.android.tv.twopanelsettings.slices.CustomContentDescriptionPreference
 import com.android.tv.twopanelsettings.slices.SliceShard;
 import com.android.tv.twopanelsettings.slices.compat.Slice;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -84,6 +87,7 @@ public class AboutFragment extends SettingsPreferenceFragment implements SliceSh
     private static final String PROPERTY_URL_SAFETYLEGAL = "ro.url.safetylegal";
     private static final String PROPERTY_SELINUX_STATUS = "ro.build.selinux";
     private static final String KEY_KERNEL_VERSION = "kernel_version";
+    private static final String FILENAME_PROC_VERSION = "/proc/version";
     private static final String KEY_BUILD_NUMBER = "build_number";
     private static final String KEY_DEVICE_MODEL = "device_model";
     private static final String KEY_SELINUX_STATUS = "selinux_status";
@@ -323,6 +327,10 @@ public class AboutFragment extends SettingsPreferenceFragment implements SliceSh
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         switch (preference.getKey()) {
+            case KEY_KERNEL_VERSION:
+                findPreference(KEY_KERNEL_VERSION)
+                    .setSummary(getFullKernelVersion());
+                break;
             case KEY_FIRMWARE_VERSION:
                 System.arraycopy(mHits, 1, mHits, 0, mHits.length - 1);
                 mHits[mHits.length - 1] = SystemClock.uptimeMillis();
@@ -450,6 +458,33 @@ public class AboutFragment extends SettingsPreferenceFragment implements SliceSh
             if (info != null) {
                 deviceTutorialsPref.setTitle(info.loadLabel(getContext().getPackageManager()));
             }
+        }
+    }
+
+    private String getFullKernelVersion() {
+        String procVersionStr;
+        try {
+            procVersionStr = readLine(FILENAME_PROC_VERSION);
+            return procVersionStr;
+        } catch (IOException e) {
+            Log.e(TAG,
+            "IO Exception when getting kernel version for Device Info screen", e);
+            return "Unavailable";
+        }
+    }
+
+    /**
+     * Reads a line from the specified file.
+     * @param filename the file to read from
+     * @return the first line, if any.
+     * @throws IOException if the file couldn't be read
+     */
+    private static String readLine(String filename) throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader(filename), 256);
+        try {
+            return reader.readLine();
+        } finally {
+            reader.close();
         }
     }
 
