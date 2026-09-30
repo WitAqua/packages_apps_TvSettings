@@ -104,7 +104,7 @@ public class AboutFragment extends SettingsPreferenceFragment implements SliceSh
     private static final String KEY_RESET = "reset";
     private static final String KEY_RESET_OPTIONS = "reset_options";
     private static final String KEY_LINEAGE_VERSION = "lineage_version";
-    private static final String PROPERTY_LINEAGE_VERSION = "ro.lineage.display.version";
+    private static final String PROPERTY_LINEAGE_VERSION = "ro.witaqua.build.version";
     private static final String KEY_BUILD_DATE = "build_date";
     private static final String PROPERTY_BUILD_DATE = "ro.build.date";
 
