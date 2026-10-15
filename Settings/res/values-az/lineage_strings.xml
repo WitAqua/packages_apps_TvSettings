@@ -29,6 +29,9 @@
     <string name="power_button_long_press_action_title">Güc düyməsinə uzun basma hərəkəti</string>
     <string name="power_button_long_press_for_power_menu_action">Güc menyusuna erişim</string>
     <string name="power_button_long_press_for_assistant_action">Köməkçini aç</string>
+    <string name="press_volume_up_and_down_to_mute_title">İki düymə ilə səsi kəs</string>
+    <string name="press_volume_up_and_down_to_mute_summary">Həcm artırma və azaltma düymələrinə basaraq səsi kəsib aça bilərsiniz</string>
     <string name="inputs_volume_control_enabled">CEC Səs Kontrolu</string>
     <string name="inputs_volume_control_enabled_desc">Daxili səsin əvəzinə TV/AVR səsini idarə et</string>
+    <string name="unsupported">Dəstəklənmir</string>
 </resources>

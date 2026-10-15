@@ -27,9 +27,12 @@
     <string name="adb_over_network_summary">הפעלת ניפוי שגיאות TCP/IP דרך ממשקי רשת (Wi\u2011Fi, רשתות USB). הגדרה זו מתאפסת באתחול</string>
     <string name="adb_over_network_warning">אזהרה: כאשר ADB דרך הרשת מופעל, הטלפון שלך חדיר מכל הרשתות המחוברות!\n\nיש להשתמש באפשרות זו רק בעת חיבור לרשתות מהימנות.\n\nהאם בוודאות ברצונך להפעיל אפשרות זו?</string>
     <string name="system_buttons">לחצנים</string>
-    <string name="power_button_long_press_action_title">פעולת לחיצה ארוכה על כפתור ההפעלה</string>
+    <string name="power_button_long_press_action_title">פעולת לחיצה ארוכה על לחצן ההפעלה</string>
     <string name="power_button_long_press_for_power_menu_action">גישה לתפריט הפעלה</string>
     <string name="power_button_long_press_for_assistant_action">פתיחת מסייע</string>
+    <string name="press_volume_up_and_down_to_mute_title">השתקה בשני לחצנים</string>
+    <string name="press_volume_up_and_down_to_mute_summary">לחיצה על לחצני הגברת והנמכת עוצמת הקול מפעילה או מבטלת את ההשתקה</string>
     <string name="inputs_volume_control_enabled">שליטת עוצמת קול CEC</string>
     <string name="inputs_volume_control_enabled_desc">שליטת עוצמת קול TV/AVR במקום עוצמת קול פנימית</string>
+    <string name="unsupported">לא נתמך</string>
 </resources>

@@ -29,6 +29,9 @@
     <string name="power_button_long_press_action_title">Acció per a la pulsació llarga del botó d\'encesa</string>
     <string name="power_button_long_press_for_power_menu_action">Accés al menú d\'encesa</string>
     <string name="power_button_long_press_for_assistant_action">Obre l\'assistent</string>
+    <string name="press_volume_up_and_down_to_mute_title">Silencieu amb dos botons</string>
+    <string name="press_volume_up_and_down_to_mute_summary">Premeu els botons per apujar i abaixar el volum per activar o desactivar el silenci de l\'àudio.</string>
     <string name="inputs_volume_control_enabled">Control de volum CEC</string>
     <string name="inputs_volume_control_enabled_desc">Controla el volum del TV/AVR en lloc del volum intern</string>
+    <string name="unsupported">No és compatible</string>
 </resources>

@@ -28,6 +28,9 @@
     <string name="power_button_long_press_action_title">长按电源按钮时动作</string>
     <string name="power_button_long_press_for_power_menu_action">访问电源菜单</string>
     <string name="power_button_long_press_for_assistant_action">打开助理</string>
+    <string name="press_volume_up_and_down_to_mute_title">双键静音</string>
+    <string name="press_volume_up_and_down_to_mute_summary">同时按音量加减以切换静音模式</string>
     <string name="inputs_volume_control_enabled">CEC 音量控制</string>
     <string name="inputs_volume_control_enabled_desc">控制 TV/AVR 音量而不是内部音量</string>
+    <string name="unsupported">不支持</string>
 </resources>

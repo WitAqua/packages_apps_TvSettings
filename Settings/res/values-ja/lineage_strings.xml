@@ -28,6 +28,9 @@
     <string name="power_button_long_press_action_title">電源ボタンの長押しの動作</string>
     <string name="power_button_long_press_for_power_menu_action">電源メニューにアクセス</string>
     <string name="power_button_long_press_for_assistant_action">アシスタントを開く</string>
+    <string name="press_volume_up_and_down_to_mute_title">2つのボタンでミュート</string>
+    <string name="press_volume_up_and_down_to_mute_summary">音量の上下ボタンを押すとミュートに切り替えます</string>
     <string name="inputs_volume_control_enabled">CEC 音量制御</string>
     <string name="inputs_volume_control_enabled_desc">内部音量の代わりに TV/AVR 音量を制御</string>
+    <string name="unsupported">非対応</string>
 </resources>

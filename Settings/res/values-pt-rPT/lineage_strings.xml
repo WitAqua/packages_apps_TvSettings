@@ -29,6 +29,9 @@
     <string name="power_button_long_press_action_title">Pressão longa no botão de ligar/desligar</string>
     <string name="power_button_long_press_for_power_menu_action">Aceder ao menu de ligar/desligar</string>
     <string name="power_button_long_press_for_assistant_action">Abrir o Assistente</string>
+    <string name="press_volume_up_and_down_to_mute_title">Silenciar com dois botões</string>
+    <string name="press_volume_up_and_down_to_mute_summary">Prima simultaneamente os botões de aumentar e diminuir o volume para alternar entre som e silêncio</string>
     <string name="inputs_volume_control_enabled">Controlo de Volume CEC</string>
     <string name="inputs_volume_control_enabled_desc">Controlar volume da TV/AVR em vez do vol. interno</string>
+    <string name="unsupported">Incompatível</string>
 </resources>

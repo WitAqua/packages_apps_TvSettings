@@ -32,6 +32,9 @@
     <string name="power_button_long_press_action_title">Cnaipe cumhachta gníomh brúigh fada</string>
     <string name="power_button_long_press_for_power_menu_action">Roghchlár Cumhacht Rochtana</string>
     <string name="power_button_long_press_for_assistant_action">Oscail Cúntóir</string>
+    <string name="press_volume_up_and_down_to_mute_title">Múchadh dhá chnaipe</string>
+    <string name="press_volume_up_and_down_to_mute_summary">Brúigh na cnaipí chun an toirt a mhéadú agus a laghdú chun an fhuaim a chur ar balbh nó a chur ar ais</string>
     <string name="inputs_volume_control_enabled">Rialú Imleabhar CEC</string>
     <string name="inputs_volume_control_enabled_desc">Rialú toirte teilifíse/AVR in ionad toirte inmheánach</string>
+    <string name="unsupported">Gan tacaíocht</string>
 </resources>
