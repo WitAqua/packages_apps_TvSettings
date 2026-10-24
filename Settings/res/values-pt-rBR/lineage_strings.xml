@@ -29,6 +29,9 @@
     <string name="power_button_long_press_action_title">Ação ao pressionar e segurar o botão liga/desliga</string>
     <string name="power_button_long_press_for_power_menu_action">Acessar o menu de energia</string>
     <string name="power_button_long_press_for_assistant_action">Abrir Assistente</string>
+    <string name="press_volume_up_and_down_to_mute_title">Silenciar com dois botões</string>
+    <string name="press_volume_up_and_down_to_mute_summary">Pressione os botões de volume para cima e para baixo para habilitar o modo silencioso</string>
     <string name="inputs_volume_control_enabled">Controle de Volume CEC</string>
     <string name="inputs_volume_control_enabled_desc">Controlar o volume da/do TV/AVR ao invés do volume interno</string>
+    <string name="unsupported">Não suportado</string>
 </resources>
