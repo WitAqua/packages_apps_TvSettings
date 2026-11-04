@@ -21,6 +21,7 @@
     <string name="show_dev_already_cm">Tidak perlu, Anda telah mengaktifkan mengaktifkan opsi pengembang.</string>
     <string name="adb_over_network">ADB melalui jaringan</string>
     <string name="system_buttons">Tombol</string>
+    <string name="power_button_long_press_for_power_menu_action">Akses Menu Daya</string>
     <string name="power_button_long_press_for_assistant_action">Buka Asisten</string>
     <string name="unsupported">Tidak didukung</string>
 </resources>
